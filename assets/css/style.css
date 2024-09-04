@@ -458,7 +458,8 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  padding-block-start: calc(var(--section-padding) + 30px);
+  padding-block-start: calc(var(--section-padding));
+  margin-top: 0px;
 }
 
 .hero .container {
@@ -479,7 +480,7 @@ body {
 
 .hero-banner {
   display: grid;
-  grid-template-columns: 1fr 0.8fr;
+  grid-template-columns: 1fr 1fr;
   align-items: flex-start;
   gap: 30px;
 }
@@ -490,10 +491,18 @@ body {
 }
 
 .hero-banner .img-holder.two {
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 90px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 110px;
+}
+.video-background {
+  height: 100%;
+  width: 100%;
 }
 
+.video-background video {
+  width: 100%;
+  height: 100%;
+}
 /*-----------------------------------*\
   #CATEGORY
 \*-----------------------------------*/
@@ -540,9 +549,10 @@ body {
   font-weight: var(--fw-500);
   padding: 2px 18px;
   max-width: max-content;
-  margin:10px auto;
+  margin: 10px auto;
   border-radius: var(--radius-5);
 }
+
 
 /*-----------------------------------*\
   #ABOUT
@@ -836,7 +846,7 @@ body {
 .blog-card .card-banner::after {
   inset: 0;
   background-color: var(--black_50);
-  opacity: 0;
+  opacity: 0; 
   transition: var(--transition-1);
 }
 
@@ -1231,7 +1241,7 @@ body {
     top: -40px;
     right: -70px;
   }
-  .about-us{
+  .about-us {
     margin: 20px 0 20px;
   }
 
