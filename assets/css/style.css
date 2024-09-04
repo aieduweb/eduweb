@@ -456,10 +456,8 @@ body {
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
-
 .hero {
-  padding-block-start: calc(var(--section-padding));
-  margin-top: 0px;
+  padding-block-start: calc(var(--section-padding) + 80px);
 }
 
 .hero .container {
@@ -552,7 +550,6 @@ body {
   margin: 10px auto;
   border-radius: var(--radius-5);
 }
-
 
 /*-----------------------------------*\
   #ABOUT
@@ -846,7 +843,7 @@ body {
 .blog-card .card-banner::after {
   inset: 0;
   background-color: var(--black_50);
-  opacity: 0; 
+  opacity: 0;
   transition: var(--transition-1);
 }
 
