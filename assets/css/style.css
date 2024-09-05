@@ -457,7 +457,7 @@ body {
   #HERO
 \*-----------------------------------*/
 .hero {
-  padding-block-start: calc(var(--section-padding) + 80px);
+  padding-block-start: calc(var(--section-padding) + 60px);
 }
 
 .hero .container {

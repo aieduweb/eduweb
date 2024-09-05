@@ -29,8 +29,7 @@
     - custom css link
   -->
 
-    <link rel="stylesheet" href="./assets/css/style.css" />
-
+<link rel="stylesheet" href="./assets/css/style.css">
     <!-- 
     - google font link
   -->
@@ -59,20 +58,15 @@
   -->
 
     <header class="header" data-header>
-      <div class="container">
-        <h2><a href="#">LearningPods</a></h2>
-        <nav class="navbar" data-navbar>
-          <div class="wrapper">
-            <!-- <a href="#" class="logo">
-              <img
-                src="./assets/images/logo.svg"
-                width="162"
-                height="50"
-                alt="LearningPods"
-              />
-            </a> -->
-            <h2>LearningPods</h2>
 
+      <div class="container">
+
+        <h2><a href="#">LearningPods</a></h2>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="wrapper">
+            <h2>LearningPods</h2>
             <button
               class="nav-close-btn"
               aria-label="close menu"
@@ -92,7 +86,7 @@
             </li>
 
             <li class="navbar-item">
-              <a href="#courses" class="navbar-link" data-nav-link>Courses</a>
+              <a href="./pages/courses.html" class="navbar-link" data-nav-link>Courses</a>
             </li>
 
             <li class="navbar-item">
@@ -103,6 +97,7 @@
               <a href="#footer" class="navbar-link" data-nav-link>Contact</a>
             </li>
           </ul>
+
         </nav>
 
         <div class="header-actions">
@@ -134,27 +129,19 @@
 
         <div class="overlay" data-nav-toggler data-overlay></div>
       </div>
+
     </header>
 
     <main>
-
       <article>
-        <!-- 
-        - #HERO
-      -->
-        <!-- <div class="video-background">
-          <video autoplay muted loop playsinline>
-            <source src="./assets/video/Black Tech Modern Virtual Assistant Artificial Intelligence Video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div> -->
-
+    
+      
         <section class="section hero has-bg-image" id="home" aria-label="home">
+        
           <div class="container">
             <div class="hero-content">
               <h1 class="h1 section-title">
-                Unlock the Future:
-                <span class="span">Master Generative AI</span> with Our Experts!
+                Unlock the Future:Master Generative AI
               </h1>
 
               <p class="hero-text">
@@ -173,7 +160,7 @@
               </a>
             </div>
 
-            <figure class="hero-banner">
+            <!-- <figure class="hero-banner">
               <div class="img-holder one" style="--width: 270; --height: 300">
                 <img
                   src="./assets/images/hero-banner-1.jpg"
@@ -201,7 +188,7 @@
                 alt=""
                 class="shape hero-shape-2"
               />
-            </figure>
+            </figure> -->
           </div>
         </section>
 
@@ -214,7 +201,7 @@
             <p class="section-subtitle">Courses</p>
 
             <h2 class="h2 section-title">
-              Best <span class="span">Classes</span> For Gen Ai, Data Science &
+              Best <span class="span">Classes</span> For Gen AI, Data Science &
               Machine Learning.
             </h2>
 
@@ -678,20 +665,18 @@
             <div class="video-card">
               <div
                 class="video-banner img-holder has-after"
-                style="--width: ; --height: "
+                style="--width: 950; --height: 550"
               >
-                <img
-                  src="./assets/images/video-banner.jpg"
+                <iframe
                   width="970"
                   height="550"
-                  loading="lazy"
-                  alt="video banner"
-                  class="img-cover"
-                />
-
-                <button class="play-btn" aria-label="play video">
-                  <ion-icon name="play" aria-hidden="true"></ion-icon>
-                </button>
+                  src="https://www.youtube.com/embed/lv7ka-8FscI?si=F9Pmf78jnwdGLdyr"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
               </div>
 
               <img
