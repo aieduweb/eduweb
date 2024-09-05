@@ -29,7 +29,7 @@
     - custom css link
   -->
 
-<link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- 
     - google font link
   -->
@@ -58,13 +58,10 @@
   -->
 
     <header class="header" data-header>
-
       <div class="container">
-
         <h2><a href="#">LearningPods</a></h2>
 
         <nav class="navbar" data-navbar>
-
           <div class="wrapper">
             <h2>LearningPods</h2>
             <button
@@ -86,7 +83,7 @@
             </li>
 
             <li class="navbar-item">
-              <a href="./pages/courses.html" class="navbar-link" data-nav-link>Courses</a>
+              <a href="#courses" class="navbar-link" data-nav-link>Courses</a>
             </li>
 
             <li class="navbar-item">
@@ -97,7 +94,6 @@
               <a href="#footer" class="navbar-link" data-nav-link>Contact</a>
             </li>
           </ul>
-
         </nav>
 
         <div class="header-actions">
@@ -129,66 +125,41 @@
 
         <div class="overlay" data-nav-toggler data-overlay></div>
       </div>
-
     </header>
 
     <main>
       <article>
-    
-      
+        <!-- 
+    - #HERO
+  -->
         <section class="section hero has-bg-image" id="home" aria-label="home">
-        
           <div class="container">
             <div class="hero-content">
               <h1 class="h1 section-title">
-                Unlock the Future:Master Generative AI
+                Unlock the Future: Master Generative AI
               </h1>
-
               <p class="hero-text">
                 Unlock AI's potential with our expert Generative AI courses!
                 Master advanced techniques, work on real-world projects, and
-                earn a valuable certification. Enroll now!
+                earn a valuable certification. Enroll now and join the AI
+                revolution!
+              </p>
+              <p class="hero-text">
+                Whether you're a beginner looking to get started or a seasoned
+                professional aiming to level up, our courses are designed to fit
+                your needs. Learn from industry-leading experts, gain hands-on
+                experience, and transform your career with cutting-edge
+                knowledge in AI technology.
               </p>
 
               <a href="#courses" class="btn has-before">
-                <span class="span">Find courses</span>
-
+                <span class="span">Find Courses</span>
                 <ion-icon
                   name="arrow-forward-outline"
                   aria-hidden="true"
                 ></ion-icon>
               </a>
             </div>
-
-            <!-- <figure class="hero-banner">
-              <div class="img-holder one" style="--width: 270; --height: 300">
-                <img
-                  src="./assets/images/hero-banner-1.jpg"
-                  width="270"
-                  height="300"
-                  alt="hero banner"
-                  class="img-cover"
-                />
-              </div>
-
-              <div class="img-holder two" style="--width: 270; --height: 300">
-                <img
-                  src="./assets/images/hero-banner-2.jpg"
-                  width="270"
-                  height="300"
-                  alt="hero banner"
-                  class="img-cover"
-                />
-              </div>
-
-              <img
-                src="./assets/images/about-shape-3.png"
-                width="522"
-                height="551"
-                alt=""
-                class="shape hero-shape-2"
-              />
-            </figure> -->
           </div>
         </section>
 
@@ -198,8 +169,6 @@
 
         <section class="section category" aria-label="category">
           <div class="container">
-            <p class="section-subtitle">Courses</p>
-
             <h2 class="h2 section-title">
               Best <span class="span">Classes</span> For Gen AI, Data Science &
               Machine Learning.
@@ -431,8 +400,6 @@
           <div class="container">
             <p class="section-subtitle">Popular Courses</p>
 
-            <h2 class="h2 section-title">Pick A Course To Get Started</h2>
-
             <ul class="grid-list">
               <li>
                 <div class="course-card">
@@ -453,17 +420,14 @@
                   <div class="abs-badge">
                     <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                    <span class="span">3 Weeks</span>
+                    <span class="span">8 Weeks</span>
                   </div>
 
                   <div class="card-content">
                     <span class="badge">Beginner</span>
 
                     <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Mastering Generative AI: From Basics to Advanced
-                        Techniques
-                      </a>
+                      <a href="#" class="card-title">Python </a>
                     </h3>
 
                     <div class="wrapper">
@@ -480,24 +444,16 @@
 
                     <data class="price" value="29">$29.00</data>
 
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="library-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
+                    <ul>
+                      <div class="category-card" style="--color: 229, 75%, 58%">
+                        <p class="card-text">
+                          Understanding of neural networks, convolutional
+                          networks, and recurrent networks
+                        </p>
 
-                        <span class="span">8 Lessons</span>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="people-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-
-                        <span class="span">20 Students</span>
-                      </li>
+                        <span class="card-badge">Python Basics</span>
+                        <span class="card-badge">Python for Data Science</span>
+                      </div>
                     </ul>
                   </div>
                 </div>
@@ -529,10 +485,7 @@
                     <span class="badge">Advanced</span>
 
                     <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Composite AI for Innovation: Blending GenAI with
-                        Traditional Models</a
-                      >
+                      <a href="#" class="card-title">Composite AI</a>
                     </h3>
 
                     <div class="wrapper">
@@ -551,21 +504,22 @@
 
                     <ul class="card-meta-list">
                       <li class="card-meta-item">
-                        <ion-icon
-                          name="library-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
+                        <ul>
+                          <div
+                            class="category-card"
+                            style="--color: 229, 75%, 58%"
+                          >
+                            <p class="card-text">
+                              Proficiency in statistical analysis, data mining, and data visualization.
+                            </p>
 
-                        <span class="span">15 Lessons</span>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="people-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-
-                        <span class="span">20 Students</span>
+                            <span class="card-badge">GenAI</span>
+                            <span class="card-badge">Traditional AI</span>
+                            <span class="card-badge">Usecases</span>
+                            <span class="card-badge">Badges</span>
+                            <span class="card-badge">Hands-on</span>
+                          </div>
+                        </ul>
                       </li>
                     </ul>
                   </div>
@@ -591,16 +545,14 @@
                   <div class="abs-badge">
                     <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                    <span class="span">3 Weeks</span>
+                    <span class="span">12 Weeks</span>
                   </div>
 
                   <div class="card-content">
-                    <span class="badge">Intermediate</span>
+                    <span class="badge">Beginners</span>
 
                     <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Python-Powered AI: Building Intelligent Systems</a
-                      >
+                      <a href="#" class="card-title">GenAI for Beginners</a>
                     </h3>
 
                     <div class="wrapper">
@@ -619,21 +571,24 @@
 
                     <ul class="card-meta-list">
                       <li class="card-meta-item">
-                        <ion-icon
-                          name="library-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
+                        <ul>
+                          <div
+                            class="category-card"
+                            style="--color: 229, 75%, 58%"
+                          >
+                            <p class="card-text">
+                              Expertise in algorithms, model building, and evaluation.
+                            </p>
 
-                        <span class="span">13 Lessons</span>
-                      </li>
-
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="people-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-
-                        <span class="span">20 Students</span>
+                            <span class="card-badge">GenAI</span>
+                            <span class="card-badge">
+                              Traditional AI - NLP
+                            </span>
+                            <span class="card-badge"> Usecases </span>
+                            <span class="card-badge"> Badges </span>
+                            <span class="card-badge"> Hands-on </span>
+                          </div>
+                        </ul>
                       </li>
                     </ul>
                   </div>
@@ -641,7 +596,7 @@
               </li>
             </ul>
 
-            <a href="#" class="btn has-before">
+            <a href="./pages/courses.html" class="btn has-before">
               <span class="span">Browse more courses</span>
 
               <ion-icon
@@ -655,7 +610,7 @@
         <!-- 
         - #VIDEO
       -->
-
+        <!-- 
         <section
           class="video has-bg-image"
           aria-label="video"
@@ -698,7 +653,7 @@
               />
             </div>
           </div>
-        </section>
+        </section> -->
 
         <!-- 
         - #STATE
@@ -970,7 +925,7 @@
             </p>
 
             <div class="wrapper">
-              <span class="span">Add:</span>
+              <span class="span">Name</span>
 
               <address class="address">70-80 Upper St Norwich NR2</address>
             </div>
@@ -1085,7 +1040,7 @@
               </li>
 
               <li>
-                <a href="#" class="social-link">
+                <a href="https://www.linkedin.com/in/learningpodsai" class="social-link">
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
               </li>

@@ -452,19 +452,25 @@ body {
   opacity: 1;
   pointer-events: all;
 }
+hr{
+  margin: 20px 0;
+}
 
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
 .hero {
-  padding-block-start: calc(var(--section-padding) + 60px);
+  padding-block-start: calc(var(--section-padding) + 10px);
+  text-align: center;
 }
 
 .hero .container {
-  display: grid;
-  gap: 40px;
+  display: flex;
+  text-align: center;
 }
-
+.hero-content {
+  text-align: center;
+}
 .hero-text {
   color: var(--eerie-black-1);
   font-size: var(--fs-4);
@@ -1430,7 +1436,8 @@ body {
    */
 
   .hero {
-    padding-block-start: calc(var(--section-padding) + 120px);
+    padding-block-start: calc(var(--section-padding) + 100px);
+    background-color: var(--shadow-3);
   }
 
   .hero .container {
